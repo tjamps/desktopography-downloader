@@ -1,0 +1,25 @@
+{
+    "name": "tjamps/desktopography-downloader",
+    "description": "A PHP script to download all images available on http://desktopography.net/",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rémi T'JAMPENS",
+            "email": "remi.tjampens@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "symfony/console": "^3.3",
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3",
+        "symfony/filesystem": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Desktopography\\": "src/Desktopography"
+        }
+    }
+}
